@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#cccccc"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Start Syndicated Story -->
+
+    <LinearLayout
+        android:id="@+id/story_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:weightSum="3"
+        android:orientation="horizontal" >
+
+        <!-- Start 1st Story -->
+        <LinearLayout
+            android:id="@+id/layout_syndicated_story1"
+            android:layout_width="0dp"
+            android:layout_height="410dp"
+            android:layout_weight="2"
+            android:background="#cc00d7"
+            android:orientation="vertical"
+    		android:layout_marginRight="5dp" >
+        </LinearLayout>
+		<!-- End 1st Story -->
+		
+		<LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_weight="1"
+            android:weightSum="2">
+
+            <!-- Start 2nd Story -->
+            <LinearLayout
+                android:id="@+id/layout_syndicated_story2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#cc00d7"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp" >
+            </LinearLayout>
+			<!-- End 2nd Story -->
+            
+            <!-- Start 3rd Story -->
+            <LinearLayout
+                android:id="@+id/layout_syndicated_story3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#cc00d7"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+            </LinearLayout>
+            <!-- End 3rd Story -->
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <!-- End Syndicated Story -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#cccccc"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+		
+        <!-- Start Community -->
+        <LinearLayout
+            android:id="@+id/layout_community"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#cc00d7"
+            android:orientation="vertical" >
+        </LinearLayout>
+		<!-- End Community -->
+		
+		<!-- Start Bookmarks -->
+        <LinearLayout
+            android:id="@+id/layout_bookmarks"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="#cc00d7"
+            android:orientation="vertical" >
+        </LinearLayout>
+        <!-- End Bookmarks -->
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#cccccc"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+    
+    <!-- Start Feeds -->
+
+    <LinearLayout
+        android:id="@+id/feeds_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:weightSum="3"
+        android:orientation="horizontal" >
+
+        <!-- Start most recent feed -->
+        <LinearLayout
+            android:id="@+id/layout_recent_feed"
+            android:layout_width="0dp"
+            android:layout_height="410dp"
+            android:layout_weight="1"
+            android:background="#cc00d7"
+            android:orientation="vertical"
+    		android:layout_marginRight="5dp" >
+        </LinearLayout>
+		<!-- End most recent feed -->
+		
+		<LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_weight="2"
+            android:weightSum="2">
+
+            <!-- Start feed list -->
+            <LinearLayout
+                android:id="@+id/layout_feed_list1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#cc00d7"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp" >
+            </LinearLayout>
+			
+            <LinearLayout
+                android:id="@+id/layout_feed_list2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#cc00d7"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+            </LinearLayout>
+            <!-- End feed list -->
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <!-- End Syndicated Story -->
+</LinearLayout>
