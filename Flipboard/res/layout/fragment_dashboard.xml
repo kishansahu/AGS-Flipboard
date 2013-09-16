@@ -7,10 +7,50 @@
     android:gravity="center_horizontal"
     android:orientation="vertical" >
 
+    <!-- Start header bar -->
+    <LinearLayout
+        android:id="@+id/layout_header"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:background="#EEEEEE"
+        android:paddingRight="10dp"
+        android:orientation="horizontal"
+        android:gravity="right" >
+        
+        <!-- Start Search button -->
+        
+        <ImageButton 
+            android:id="@+id/header_imagebutton_search"
+            android:src="@drawable/ic_action_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="@string/tag_imagebutton_search"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/description_imagebutton_search"
+            android:onClick="" />
+        <!-- End Search button -->
+        
+        <!-- Start Menu button -->
+        <ImageButton 
+            android:id="@+id/header_imagebutton_menu"
+            android:src="@drawable/ic_action_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="@string/tag_imagebutton_search"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/description_imagebutton_search" />
+        <!-- End Menu button -->
+        
+    </LinearLayout>
+    <!-- End header bar -->
+    
     <View
         android:layout_width="fill_parent"
         android:layout_height="2dp"
         android:background="#cccccc"
+        android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp" />
 
     <!-- Start Syndicated Story -->
@@ -146,24 +186,10 @@
             android:weightSum="2">
 
             <!-- Start feed list -->
-            <LinearLayout
-                android:id="@+id/layout_feed_list1"
+            <ListView
+                android:id="@+id/feed_listview"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:background="#cc00d7"
-                android:orientation="vertical"
-                android:layout_weight="1"
-                android:layout_marginBottom="5dp" >
-            </LinearLayout>
-			
-            <LinearLayout
-                android:id="@+id/layout_feed_list2"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:background="#cc00d7"
-                android:orientation="vertical"
-                android:layout_weight="1" >
-            </LinearLayout>
+                android:layout_height="match_parent"/>
             <!-- End feed list -->
         </LinearLayout>
         

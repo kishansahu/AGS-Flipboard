@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">FlipBoard</string>
+    <string name="app_name">Flip Board</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    
+    <string name="description_imagebutton_search">Search button</string>
+	<string name="tag_imagebutton_search">Search</string>
+    
 </resources>

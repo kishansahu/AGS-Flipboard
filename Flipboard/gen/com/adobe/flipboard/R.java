@@ -26,19 +26,19 @@ public final class R {
         public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int action_menu=0x7f08000c;
-        public static final int action_search=0x7f08000b;
         public static final int dashboard_fragment=0x7f080000;
-        public static final int feeds_container=0x7f080007;
-        public static final int layout_bookmarks=0x7f080006;
-        public static final int layout_community=0x7f080005;
-        public static final int layout_feed_list1=0x7f080009;
-        public static final int layout_feed_list2=0x7f08000a;
-        public static final int layout_recent_feed=0x7f080008;
-        public static final int layout_syndicated_story1=0x7f080002;
-        public static final int layout_syndicated_story2=0x7f080003;
-        public static final int layout_syndicated_story3=0x7f080004;
-        public static final int story_container=0x7f080001;
+        public static final int feed_listview=0x7f08000c;
+        public static final int feeds_container=0x7f08000a;
+        public static final int header_imagebutton_menu=0x7f080003;
+        public static final int header_imagebutton_search=0x7f080002;
+        public static final int layout_bookmarks=0x7f080009;
+        public static final int layout_community=0x7f080008;
+        public static final int layout_header=0x7f080001;
+        public static final int layout_recent_feed=0x7f08000b;
+        public static final int layout_syndicated_story1=0x7f080005;
+        public static final int layout_syndicated_story2=0x7f080006;
+        public static final int layout_syndicated_story3=0x7f080007;
+        public static final int story_container=0x7f080004;
     }
     public static final class layout {
         public static final int application_launcher=0x7f030000;
@@ -51,13 +51,20 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        public static final int description_imagebutton_search=0x7f050003;
         public static final int hello_world=0x7f050002;
+        public static final int tag_imagebutton_search=0x7f050004;
     }
     public static final class style {
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
 
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
@@ -71,8 +78,7 @@ public final class R {
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f060000;
-        /**  Application theme. 
- android:style/Theme.Holo added for customization purpose 
+        /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
     }

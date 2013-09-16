@@ -1,0 +1,107 @@
+{
+    "domain": "cqserver.adobe.com",
+    "serverUrl": "http://cqserver.adobe.com",
+    "created": "2013-08-22T23:22:50.974+0000",
+    "feedUrl": "/services/feed",
+    "totalArticles": 2,
+    "totalFlaggedArticles": 1,
+    "articles": [
+        {
+            "id": "/content/flip/en/magazine/article1",
+            "url": "/content/flip/en/magazine/article1.html",
+            "created": "2013-08-22T23:28:04.819+0000",
+            "lastModified": "2013-08-23T23:22:50.974+0000",
+            "thumbnailUrl": "/content/flip/en/magazine/article1/jcr:content/par/thumbnail/image.png",
+            "contentType": "HTML", (this can be HTML | PDG | VIDEO)
+            "title": "This is my first article",
+            "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+            "flagged_as_inappropriate": true,
+            "tags": {
+                "adobe_product_solution": [],
+                "adobe_product_family": [
+                    "acrobat"
+                ],
+                "region": [
+                    "america",
+                    "emea",
+                    "japan",
+                    "apac",
+                    "global"
+                ],
+                "ags_function": [
+                    "advocacy",
+                    "training",
+                    "client_care"
+                ],
+                "theme": [
+                    "value"
+                ],
+                "industry": [],
+                "individual_employee": [],
+                "corporate_source": [
+                    "adobe_authored"
+                ]
+            },
+            "social": {
+                "commentNode": "/content/flip/en/magazine/article1/jcr:content/par/comment_9afa",
+                "voteNode": "/content/flip/en/magazine/article1/jcr:content/par/voting_8f1d",
+                "shareNode": "/content/flip/en/magazine/article1/jcr:content/par/sharing_8f1f",
+                "totalComments": 11,
+                "totalVotes": 23,
+                "totalShares": 12
+            },
+            "author": {
+                "name": "John Doe",
+                "email": "jdoe@geometrixx.info",
+                "id": "jdoe",
+                "avatarUrl": "/home/users/geometrixx/jdoe@geometrixx.info/profile/photos/primary/image.prof.thumbnail.32.png"
+            }
+        },
+        {
+            "id": "/content/flip/en/magazine/article2",
+            "url": "/content/flip/en/magazine/article2.html",
+            "created": "2013-08-22T23:28:04.819+0000",
+            "lastModified": "2013-08-23T23:22:50.974+0000",
+            "thumbnailUrl": "/content/flip/en/magazine/article2/jcr:content/par/thumbnail/image.png",
+            "contentType": "VIDEO",
+            "videoUrl": "http://content.tv.adobe.com/adobetv2/videos/2010-10-27/e7a3af96-74a2-4d41-dec9-77b3eac8b493.mp4",
+            "title": "This is my second article",
+            "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+            "flagged_as_inappropriate": false,
+            "tags": {
+                "adobe_product_solution": [],
+                "adobe_product_family": [],
+                "region": [
+                    "japan",
+                    "apac",
+                    "global"
+                ],
+                "ags_function": [
+                    "advocacy",
+                    "client_care"
+                ],
+                "theme": [
+                    "value"
+                ],
+                "industry": [],
+                "individual_employee": [],
+                "corporate_source": [
+                    "adobe_authored"
+                ]
+            },
+            "social": {
+                "commentNode": "/content/flip/en/magazine/article2/jcr:content/par/comment_4atb",
+                "voteNode": "/content/flip/en/magazine/article2/jcr:content/par/voting_7f2f",
+                "totalComments": 2,
+                "totalVotes": 8,
+                "totalShares": 15
+            },
+            "author": {
+                "name": "Allison Parker",
+                "email": "aparker@geometrixx.info",
+                "id": "aparker",
+                "avatarUrl": "/home/users/geometrixx/aparker@geometrixx.info/profile/photos/primary/image.prof.thumbnail.32.png"
+            }
+        }
+    ]
+}
